@@ -34,10 +34,11 @@
 --
 --  Rta/
 --     YEAR    avg(c21)
---  0  2016  564.476429
+--  0  26  564.476429
 --  1  2017  515.156364
 --  2  2018  557.559375
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT strftime('%Y',c23) as "YEAR", avg(c21) FROM tbl2 GROUP BY YEAR
