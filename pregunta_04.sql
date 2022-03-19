@@ -37,6 +37,8 @@
 --  0  E  EGFD
 --  1  B  BDEE
 --  2  C  CCCE
---
---  >>> Escriba su codigo a partir de este punto <<<
+--scriba su codigo a partir de este punto <<<
 -- 
+-- SELECT * FROM tbl1 LEFT OUTER JOIN tbl0 ON tbl1.K0 = tbl0.K0
+-- SELECT K0, c16 FROM (SELECT K0, c16, K0||'%' as stri FROM tbl1 WHERE c16 like stri )
+SELECT K0, c16 FROM tbl1 WHERE c16 like K0||'%'
