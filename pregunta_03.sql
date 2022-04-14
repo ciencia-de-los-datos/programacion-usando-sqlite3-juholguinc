@@ -10,7 +10,7 @@
 --    c16 CHAR(4)
 -- 
 --  Escriba una consulta que retorne los primeros cinco
---  registros de la tabla `tbl1` ordenados por fecha.
+--  registros de la tabla `tb
 -- 
 --  Rta/
 --    K0  K1     c12  c13         c14   c15   c16
@@ -22,3 +22,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT * FROM tbl1 ORDER BY c14 LIMIT 5
